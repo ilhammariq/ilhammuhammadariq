@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from 'react';
+import AboutComponent from './components/AboutComponent';
+import Navbar from './components/Common/Navbar';
+import ContactMeComponent from './components/ContactMeComponent';
+import HomeComponent from './components/HomeComponent';
+import JourneyComponent from './components/JourneyComponent';
+import Portfolio from './components/Portfolio';
+import SkillsComponent from './components/SkillsComponent';
+import { smoothScrolling } from './config/utils';
 
-function App() {
+const App = () => {
+  useEffect(() => {
+    smoothScrolling();
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <div className='dark:bg-dark duration-500'>
+        <div className='px-7 md:px-40 max-w-7xl m-auto '>
+          <HomeComponent />
+          <AboutComponent />
+          <SkillsComponent />
+          <JourneyComponent />
+          <Portfolio />
+          <ContactMeComponent />
+        </div>
+      </div>
     </div>
   );
-}
+};
 
 export default App;
