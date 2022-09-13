@@ -17,7 +17,9 @@ const Navbar = () => {
     window.scrollY > 10 ? setNavFixed('-translate-y-full') : setNavFixed('');
     window.scrollY > 10
       ? setNavShow('scale-100')
-      : setNavShow('scale-0 translate-x-20');
+      : setNavShow(
+          `${hide ? 'scale-0 -translate-x-0' : 'scale-0 translate-x-20'}`
+        );
   };
 
   useEffect(() => {
@@ -55,7 +57,7 @@ const Navbar = () => {
         <div>
           <div
             className={`${
-              hide ? `-translate-x-0 ${navShow}` : `scale-0 translate-x-20`
+              hide ? `${navShow}` : `scale-0 translate-x-20`
             } bg-dark dark:bg-light dark:border-dark right-0 duration-1000 ease-out text-light dark:text-dark rounded-lg border-2 shadow-lg px-4 py-5  fixed bottom-10`}>
             <div onClick={() => setHide(!hide)} className='group'>
               <div className='cursor-pointer  hover:scale-150 duration-500 ease-in-out'>
@@ -67,7 +69,7 @@ const Navbar = () => {
         <div
           className={`${
             hide && 'translate-x-full right-0'
-          } ${navFloat} inset-x-1/4 fixed bottom-10 duration-700`}>
+          } ${navFloat} inset-x-1/4 fixed bottom-10 duration-700 z-10`}>
           <div
             className={`grid grid-cols-7 px-3 py-5 place-items-center rounded-lg border-2 dark:bg-light bg-dark dark:border-dark text-light dark:text-dark shadow-lg`}>
             {menuNavbarFloating.map((item, i) => (

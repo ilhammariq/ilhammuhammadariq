@@ -17,7 +17,7 @@ const App = () => {
     <div>
       <Navbar />
       <div className='dark:bg-dark duration-500'>
-        <div className='px-7 md:px-40 max-w-7xl m-auto '>
+        <div className='px-7 md:px-20 max-w-7xl m-auto '>
           <HomeComponent />
           <AboutComponent />
           <SkillsComponent />

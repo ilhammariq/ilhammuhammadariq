@@ -39,3 +39,43 @@ export const menuNavbarFloating = [
     href: '#',
   },
 ];
+
+export const iconSkills = [
+  {
+    icon: 'vscode-icons:file-type-html',
+    width: '100',
+    height: '100',
+    name: 'Html'
+  },
+  {
+    icon: 'vscode-icons:file-type-css',
+    width: '100',
+    height: '100',
+    name: 'Css'
+  },
+  {
+    icon: 'logos:javascript',
+    width: '100',
+    height: '100',
+    name: 'Javascript'
+  },
+  {
+    icon: 'logos:bootstrap',
+    width: '100',
+    height: '100',
+    name: 'Bootstrap'
+    
+  },
+  {
+    icon: 'logos:react',
+    width: '100',
+    height: '100',
+    name: 'Reach Js'
+  },
+  {
+    icon: 'logos:tailwindcss-icon',
+    width: '100',
+    height: '100',
+    name: 'Tailwind'
+  },
+];
