@@ -91,7 +91,7 @@ const Navbar = () => {
       </div>
 
       <div className='md:hidden'>
-        <div className='bottom-0 fixed w-full dark:bg-dark dark:text-light duration-500 border-t-2 dark:border-dark bg-light '>
+        <div className='bottom-0 fixed w-full dark:bg-dark dark:text-light z-20 duration-500 border-t-2 dark:border-dark bg-light '>
           <div className='py-4 px-7 flex items-center justify-between gap-3'>
             <span className='text-lg font-semibold'>Ariq</span>
             <div className='flex items-center gap-5'>

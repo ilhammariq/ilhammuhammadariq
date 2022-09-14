@@ -3,7 +3,7 @@ import React from 'react';
 import ImageHome from '../assets/img/img_home.png'
 const HomeComponent = () => {
   return (
-    <section id='profile' className='pt-28 md:pt-50'>
+    <section id='profile' className='pt-10 md:pt-40'>
       <div className='flex flex-col-reverse md:flex-row'>
         <div className='w-full flex flex-col justify-center md:gap-16 gap-10'>
           <div className='w-full flex flex-col justify-center'>
