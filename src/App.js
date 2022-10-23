@@ -4,7 +4,7 @@ import Navbar from './components/Common/Navbar';
 import ContactMeComponent from './components/ContactMeComponent';
 import HomeComponent from './components/HomeComponent';
 import JourneyComponent from './components/JourneyComponent';
-import Portfolio from './components/Portfolio';
+import PortfolioComponent from './components/PortfolioComponent';
 import SkillsComponent from './components/SkillsComponent';
 import { smoothScrolling } from './config/utils';
 
@@ -22,7 +22,7 @@ const App = () => {
           <AboutComponent />
           <SkillsComponent />
           <JourneyComponent />
-          <Portfolio />
+          <PortfolioComponent />
           <ContactMeComponent />
         </div>
       </div>

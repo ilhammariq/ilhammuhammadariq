@@ -35,7 +35,7 @@ const Navbar = () => {
         <div
           className={`fixed ${navFixed} top-0 py-8 w-full duration-500 bg-light dark:bg-dark shadow-lg`}>
           <div className='px-10 max-w-7xl m-auto flex justify-between text-dark dark:text-light'>
-            <h1 className='text-2xl font-medium'>Ariq</h1>
+            <h1 className='text-2xl font-medium cursor-pointer'>Ariq</h1>
             <ul className='flex text-lg items-center gap-6'>
               {menuNavbar.map((item, id) => (
                 <a key={id} href={item.href} className='cursor-pointer'>
