@@ -70,7 +70,7 @@ export const iconSkills = [
     icon: 'logos:react',
     width: '100',
     height: '100',
-    name: 'Reach Js'
+    name: 'React Js'
   },
   {
     icon: 'logos:tailwindcss-icon',
