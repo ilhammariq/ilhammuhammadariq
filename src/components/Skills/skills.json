@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "icon": "logos:react",
+    "width": "100",
+    "height": "100",
+    "name": "React Js"
+  },
+  {
+    "id": "2",
+    "icon": "logos:nextjs",
+    "width": "100",
+    "height": "100",
+    "name": "Next Js"
+  },
+  {
+    "id": "3",
+    "icon": "logos:bootstrap",
+    "width": "100",
+    "height": "100",
+    "name": "Bootstrap"
+  },
+  {
+    "id": "4",
+    "icon": "logos:tailwindcss-icon",
+    "width": "100",
+    "height": "100",
+    "name": "Tailwind"
+  },
+  {
+    "id": "5",
+    "icon": "logos:javascript",
+    "width": "100",
+    "height": "100",
+    "name": "Javascript"
+  },
+  {
+    "id": "6",
+    "icon": "skill-icons:golang",
+    "width": "100",
+    "height": "100",
+    "name": "Golang"
+  }
+]

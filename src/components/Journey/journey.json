@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Software Developer",
+    "company": "PT Bussan Auto Finance · Contract",
+    "duration": "Jan 2022 - Present · 2 yrs 11 mos",
+    "description": [
+      "Build and enhance internal web applications using React.js and Next.js with Tailwinds/Bootstrap CSS, delivering responsive and user-centered interfaces.",
+      "Integrate REST APIs seamlessly to enable robust data flow and dynamic functionality across the website.",
+      "Analyze, maintain, and troubleshoot application issues, continuously optimizing performance for speed and efficiency.",
+      "Developed REST APIs with Go-lang for seamless front-end integration.",
+      "Implemented microservices and integrated third-party APIs.",
+      "Maintain API and ensure robust error handling and logging."
+    ]
+  },
+  {
+    "title": "Web Programmer",
+    "company": "KREEN.ID · Internship",
+    "duration": "Sep 2020 - Dec 2020 · 4 mos",
+    "description": [
+      "Developing the KREEN.ID project site using PHP and MySQL.",
+      "Using MVC design pattern in website development.",
+      "Collaborate with UI/UX in implementing website design."
+    ]
+  }
+
+]
