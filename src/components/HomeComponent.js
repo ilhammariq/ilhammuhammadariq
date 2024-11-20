@@ -3,19 +3,18 @@ import React from 'react';
 import ImageHome from '../assets/img/img_home.png'
 const HomeComponent = () => {
   return (
-    <section id='profile' className='pt-2 md:pt-40'>
+    <section id='profile' className='pt-2 pl-4 md:pt-28'>
       <div className='flex flex-col-reverse md:flex-row'>
         <div className='w-full flex flex-col justify-center md:gap-16 gap-10'>
           <div className='w-full flex flex-col justify-center'>
             <h1 className='text-4xl font-semibold text-dark mb-1 md:mb-3 dark:text-light'>
               Hi, I'am Ariq
             </h1>
-            <h3 className='md:text-lg text-base font-semibold dark:text-slate-400 text-slate-500 mb-3'>
-              Frontend Developer
+            <h3 className='md:text-lg text-base font-semibold dark:text-slate-400 text-slate-500 mb-10'>
+              Software Developer
             </h3>
-            <p className='md:text-base text-sm font-medium md:font-normal dark:text-slate-400 text-slate-500'>
-              High level experience in web development knowledge, creating of
-              responsive and interactive websites
+            <p className='md:text-4xl italic text-sm font-medium md:font-normal dark:text-slate-400 text-slate-500'>
+              "Innovating Beyond the Lines of Code"
             </p>
           </div>
           <div>
@@ -27,7 +26,7 @@ const HomeComponent = () => {
             </a>
           </div>
         </div>
-        <div className='w-full flex justify-center md:pb-10'>
+        <div className='w-full flex justify-center md:pb-10 md:w-3/4'>
           <svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg' className='w-full h-full'>
             <mask id='mask0' mask-type='alpha'>
               <path

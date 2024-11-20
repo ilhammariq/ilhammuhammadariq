@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
-import AboutComponent from './components/AboutComponent';
 import Navbar from './components/Common/Navbar';
 import ContactMeComponent from './components/ContactMeComponent';
 import HomeComponent from './components/HomeComponent';
-import JourneyComponent from './components/JourneyComponent';
+import JourneyComponent from './components/Journey/JourneyComponent';
 import PortfolioComponent from './components/PortfolioComponent';
-import SkillsComponent from './components/SkillsComponent';
+import SkillsComponent from './components/Skills/SkillsComponent';
 import { smoothScrolling } from './config/utils';
+import AboutComponent from './components/About/AboutComponent';
 
 const App = () => {
   useEffect(() => {
@@ -17,7 +17,7 @@ const App = () => {
     <div>
       <Navbar />
       <div className='dark:bg-dark duration-500'>
-        <div className='px-7 md:px-20 max-w-7xl m-auto '>
+        <div className='px-7 md:px-10 max-w-7xl m-auto '>
           <HomeComponent />
           <AboutComponent />
           <SkillsComponent />

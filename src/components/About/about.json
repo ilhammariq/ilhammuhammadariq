@@ -1,0 +1,20 @@
+{
+  "aboutIcon": [
+    {
+      "href": "https://www.instagram.com/ilhammuhammadariq/",
+      "icon": "line-md:instagram"
+    },
+    {
+      "href": "https://www.linkedin.com/in/ilhammuhammadariq/",
+      "icon": "line-md:linkedin"
+    },
+    {
+      "href": "https://www.facebook.com/ilham.muhammadariq/",
+      "icon": "line-md:facebook"
+    },
+    {
+      "href": "https://github.com/ilhammariq",
+      "icon": "line-md:github"
+    }
+  ]
+}
