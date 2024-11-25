@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Icon } from '@iconify/react';
-import { menuNavbar, menuNavbarFloating } from '../../config/constants';
-import useDarkMode from '../../config/useDarkMode';
+import navbar from './navbar.json'
+import useDarkMode from '../../../config/useDarkMode';
 
 const Navbar = () => {
   const [toggleNavbar, setToggleNavbar] = useState(false);
@@ -37,7 +37,7 @@ const Navbar = () => {
           <div className='px-10 max-w-7xl m-auto flex justify-between text-dark dark:text-light'>
             <h1 className='text-2xl font-medium cursor-pointer'>Ariq</h1>
             <ul className='flex text-lg items-center gap-6'>
-              {menuNavbar.map((item, id) => (
+              {navbar.menuNavbar.map((item, id) => (
                 <a key={id} href={item.href} className='cursor-pointer'>
                   <li className='font-medium'>{item.title}</li>
                 </a>
@@ -72,7 +72,7 @@ const Navbar = () => {
           } ${navFloat} inset-x-1/4 fixed bottom-10 duration-700 z-10`}>
           <div
             className={`grid grid-cols-7 px-3 py-5 place-items-center rounded-lg border-2 dark:bg-light bg-dark dark:border-dark text-light dark:text-dark shadow-lg`}>
-            {menuNavbarFloating.map((item, i) => (
+            {navbar.menuNavbarFloating.map((item, i) => (
               <a
                 href={item.href}
                 onClick={() => setHide(!hide)}
@@ -118,7 +118,7 @@ const Navbar = () => {
               toggleNavbar ? '-translate-y-72' : ''
             } px-7 pt-10 py-4 absolute -bottom-72 dark:border-dark rounded-t-lg dark:bg-dark bg-light w-full duration-500`}>
             <div className='grid grid-cols-3 gap-10 mb-10 place-items-center'>
-              {menuNavbar.map((item, i) => (
+              {navbar.menuNavbar.map((item, i) => (
                 <a
                   href={item.href}
                   onClick={() => setToggleNavbar(!toggleNavbar)}

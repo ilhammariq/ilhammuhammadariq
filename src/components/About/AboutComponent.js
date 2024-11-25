@@ -4,7 +4,7 @@ import about from './about.json'
 
 const AboutComponent = () => {
   return (
-    <section id="about" className="py-24">
+    <section id="about" className="pt-24 pb-12">
       <div>
         <div className="text-center mb-16">
           <h1 className="text-2xl font-semibold dark:text-light">About Me</h1>

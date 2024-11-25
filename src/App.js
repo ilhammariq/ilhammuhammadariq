@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Navbar from './components/Common/Navbar';
+import Navbar from './components/Common/Navbar/Navbar';
 import ContactMeComponent from './components/ContactMeComponent';
 import HomeComponent from './components/HomeComponent';
 import JourneyComponent from './components/Journey/JourneyComponent';
