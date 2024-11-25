@@ -19,7 +19,7 @@ const SkillItem = ({ item }) => (
 
 const SkillsComponent = () => {
   return (
-    <section id="skills" className="py-24">
+    <section id="skills" className="py-12">
       <div>
         <div className="text-center mb-10 md:mb-24">
           <h1 className="text-2xl font-semibold dark:text-light">Skills</h1>
